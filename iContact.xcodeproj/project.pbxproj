@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360E14ED1E98556100ABDAE2 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E14EC1E98556100ABDAE2 /* ContactTableViewCell.swift */; };
 		361292021E97FFE80079FEB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361292011E97FFE80079FEB4 /* AppDelegate.swift */; };
 		361292041E97FFE80079FEB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361292031E97FFE80079FEB4 /* ViewController.swift */; };
 		361292071E97FFE80079FEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361292051E97FFE80079FEB4 /* Main.storyboard */; };
 		361292091E97FFE80079FEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361292081E97FFE80079FEB4 /* Assets.xcassets */; };
 		3612920C1E97FFE80079FEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612920A1E97FFE80079FEB4 /* LaunchScreen.storyboard */; };
+		361292141E98234A0079FEB4 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361292131E98234A0079FEB4 /* ContactItem.swift */; };
+		36E2315A1E99095900FDD154 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E231591E99095900FDD154 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360E14EC1E98556100ABDAE2 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		361291FE1E97FFE80079FEB4 /* iContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361292011E97FFE80079FEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		361292031E97FFE80079FEB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		361292081E97FFE80079FEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3612920B1E97FFE80079FEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3612920D1E97FFE80079FEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361292131E98234A0079FEB4 /* ContactItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactItem.swift; sourceTree = "<group>"; };
+		36E231591E99095900FDD154 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				361292011E97FFE80079FEB4 /* AppDelegate.swift */,
 				361292031E97FFE80079FEB4 /* ViewController.swift */,
+				36E231591E99095900FDD154 /* DetailViewController.swift */,
 				361292051E97FFE80079FEB4 /* Main.storyboard */,
+				360E14EC1E98556100ABDAE2 /* ContactTableViewCell.swift */,
 				361292081E97FFE80079FEB4 /* Assets.xcassets */,
 				3612920A1E97FFE80079FEB4 /* LaunchScreen.storyboard */,
 				3612920D1E97FFE80079FEB4 /* Info.plist */,
+				361292131E98234A0079FEB4 /* ContactItem.swift */,
 			);
 			path = iContact;
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360E14ED1E98556100ABDAE2 /* ContactTableViewCell.swift in Sources */,
+				361292141E98234A0079FEB4 /* ContactItem.swift in Sources */,
+				36E2315A1E99095900FDD154 /* DetailViewController.swift in Sources */,
 				361292041E97FFE80079FEB4 /* ViewController.swift in Sources */,
 				361292021E97FFE80079FEB4 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +311,7 @@
 				361292121E97FFE80079FEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
